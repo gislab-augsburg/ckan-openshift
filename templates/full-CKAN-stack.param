@@ -2,7 +2,7 @@
 NAME=ckan
 NAMESPACE=udpkatalog-dev
 APPLICATION_HOSTNAME='ckan-openshift-test-udpkatalog-dev.apps.capk.muenchen.de'
-CKAN_VERSION="ckan-2.8.2"
+CKAN_VERSION="ckan-2.9.7"
 SOLR_VERSION="6.6.2"
 DATAPUSHER_VERSION="0.0.15"
 PG_VERSION="centos7-9.6.16-4.2.0"
