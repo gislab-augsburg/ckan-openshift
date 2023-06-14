@@ -232,7 +232,7 @@ objects:
       type: Git
       git:
         ref: ${CONFIG_REPO_BRANCH}
-        uri: "https://git.muenchen.de/lhm-udp-katalog-2/ckan-openshift.git"
+        uri: "https://github.com/gislab-augsburg/ckan-openshift.git"
       contextDir: "docker/solr/${SOLR_VERSION}"
 # used with a private repo
 #        sourceSecret:
@@ -863,7 +863,7 @@ objects:
       type: Git
       git:
         ref: ${CONFIG_REPO_BRANCH}
-        uri: "https://git.muenchen.de/lhm-udp-katalog-2/ckan-openshift.git"
+        uri: "https://github.com/gislab-augsburg/ckan-openshift.git"
       contextDir: "docker/postgres-gis/${PG_VERSION}"
 #      sourceSecret:
 #        name: ${BASEBUILDER_REPO_AUTH}
@@ -1095,7 +1095,7 @@ objects:
       type: Git
       git:
         ref: ${CONFIG_REPO_BRANCH}
-        uri: "https://git.muenchen.de/lhm-udp-katalog-2/ckan-openshift.git"
+        uri: "https://github.com/gislab-augsburg/ckan-openshift.git"
       contextDir: "docker/ckan/builder"
 #      sourceSecret:
 #        name: ${BASEBUILDER_REPO_AUTH}
